@@ -1,0 +1,28 @@
+{
+  "name": "aeva",
+  "version": "0.0.1",
+  "description": "Aeva is a solidity test runner that lets you develop with confidence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "ava",
+    "aeva",
+    "solidity",
+    "vyper",
+    "ethereum",
+    "web3",
+    "smart",
+    "contract"
+  ],
+  "author": "Tim Daubenschütz <tim@daubenschuetz.de> (https://timdaub.github.io/)",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "globby": "11.0.3",
+    "meow": "10.0.0"
+  },
+  "devDependencies": {
+    "ava": "3.15.0"
+  }
+}
